@@ -1,0 +1,50 @@
+1 3 2 4
+5 4 3 2
+1 1 1 2
+0 1 2 0
+
+1  4  6  10
+6 13 18 24
+7 15 21 29
+7 16 24 32
+
+1 1 2 2
+1 1 3 3
+0 0 0 0
+0 0 1 2
+
+1 3 2  
+5 4 3 
+1 1 1 
+leftside: 6 
+upside: 7
+then add the overlap: 1
+outside: 21
+
+then the answer is 9
+
+1 3 2 4
+5 4 3 2
+1 1 1 2
+0 1 2 0
+
+leftside: 7
+upside: 10
+overlap: 1
+outside: 32
+
+1 3 2
+5 4 3
+outside: 18
+when leftside is 0, dont do anything
+when rightside is 0, dont do anything
+
+y is up/down, x is right/left
+
+create a presum grid that stores a cell's vals above and left
+then when removing
+the left side is the rectangle from 0,0 to ax-1,by
+other is bx, ay-1
+overlap is  ax-1, ay-1
+
+

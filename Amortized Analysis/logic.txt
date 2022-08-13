@@ -1,0 +1,16 @@
+zzaczbzzzazzz
+keep a window
+always move to right
+have 3 ints for quantity of a, b, c 
+move to the right if you dont have enough a b or c 
+if the left letter isnt a b or c then close it 
+if the left letter is a b or c but you have more than 1, remove it
+ z z a c z b z z z a z z z
+    [       ]
+ z z a c z b z z z a z z z
+          [         ]
+ to go through the entire ar
+ have a min variable
+ then move the left window to keep searching
+ once you have a viable solution, cut the left so you dont have enough
+ then continue

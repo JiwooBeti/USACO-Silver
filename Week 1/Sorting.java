@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 import java.io.*;
 class Sorting {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ class Sorting {
             };
             sort4(ar4);
 
-            /* {1, 9}, {3, 3}, {3, 4}*/
+            /* {1, 9}, {3, 3}, {3, 4}*//*
             HashSet<Integer> s1 = new HashSet<>();
             s1.add(1);s1.add(9);
             HashSet<Integer> s2 = new HashSet<>();
@@ -91,4 +91,4 @@ class Sorting {
     }
 
     
-}
+}*/

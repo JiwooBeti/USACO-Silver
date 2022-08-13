@@ -1,0 +1,11 @@
+1
+5 2
+1 1 2 0 1
+
+greedy: linear path
+no sorting
+
+at every stop take out those who need to leave
+add as much ppl that can board
+
+have an out int ar that stores how many ppl need to leave at what stop
